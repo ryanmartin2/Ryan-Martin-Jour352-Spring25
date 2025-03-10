@@ -1,0 +1,73 @@
+/*
+MY COLOR PALETTE
+Color 1 - #EFF8E2
+Color 2 - #CECFC7
+Color 3 - #ADA8B6
+Color 4 - #23022E
+Color 5 - #573280
+*/
+
+@media{
+
+h1 {
+    color: #362b2c;
+    font-family: "DynaPuff", seif;
+    font-size: 50px;
+    line-height: 1.2;
+    letter-spacing: 4px;
+    margin: 10px 50px 10px 50px;
+    text-align: center;
+}
+
+h2 {
+    margin: 10px 50px 10px 50px;
+}
+
+img {
+    width: 100%;
+    border-radius: 100px;
+    text-align: center;
+    margin: 50 px auto 0px auto;
+    display: block;
+}
+
+button {
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+    padding: 10px 50px 10px 50px;
+    margin: 50px;
+}
+body {
+    background-color: gray;
+}
+
+#topper {
+    background-image: url(Ryan_Martin_03.jpeg);
+    height: 400px;
+    background-size: cover;
+    background-position: 0 50%;
+    height: 500 px;
+}
+#navigation {
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+    background-color: #cecfc7;
+}
+h3 {
+    padding: 25px 0px 25px 0px;
+}
+h4 {
+    text-decoration: underline;
+}
+.jobtitle {
+    color: forestgreen;
+    font-size: 50px;
+    font-family: Georgia, seif;
+}
+}
+@media (min-width:576px) {
+    h1{
+        font-size:100px;
+    }
+}
