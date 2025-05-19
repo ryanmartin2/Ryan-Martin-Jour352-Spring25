@@ -13,16 +13,28 @@
 
     #topper {
         background-color: #ffffff;
+        font-family: "Open Sans", sans-serif;
+        text-align-last: center;
     }
 
     #leadimage {
         width: 100%;
     }
 
-    .athleteimage {
+    .athleteimage1 {
         width: 50%;
         float: left;
         padding: 0px 10px 0px 0px;
+    }
+    .bysportimage {
+        width: 50%;
+        float: left;
+        padding: 0px 10px 10px 10px;
+    }
+    .nationalityimage {
+        width: 50%;
+        float: left;
+        padding: 0px 10px 10px 10px;
     }
 }
 @media (min-width: 576px) {
